@@ -49,29 +49,78 @@ color:#2E2F42;
   cursor: pointer;
   color: #2E2F42;
 }
-.nav-menu>a:active{
-color: #404BBF;
+.nav-menu.nav-page{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
 }
-
+.nav-menu.nav-page:hover:focus{
+  color: #404BBF;
+}
 .header-address{
 color: #404BBF;
 font-style: normal;
+}
+.header-address.mail{
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-address.mail:hover:focus{
+  color: #404BBF;
+}
+.header-address.call{
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-address.call:hover:focus{
+  color: #404BBF;
 }
 .hero-image{
   background-color: #2E2F42;
   color: #FFFFFF;
 }
-.hero-image
-button{
+.hero-image.pagetitle{
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.hero-image.order{
   cursor: pointer;
   background-color: #4D5AE5;
   color: #FFFFFF;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-button:active{
+.hero-image.order:hover{
   background-color: #404BBF;
+}
+.hero-image.order:focus{
+  background-color: #404BBF;
+}
+.section1 .hiddentitle{
+  letter-spacing: 0.02em;
+}
+.section1.fewwords{
+  letter-spacing: 0.02em;
 }
 .section2{
   background-color: #F4F4FD;
+}
+.section2.team{
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section2.pers{
+  background-color: #FFFFFF;
+}
+.section2.teamh3{
+  letter-spacing: 0.02em;
+}
+.section2.psect3{
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 .section3 .sect3-title{
   font-size: 36px;
@@ -80,6 +129,12 @@ button:active{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2E2F42;
+}
+.section3.sect3-h3{
+  letter-spacing: 0.02em;
+}
+.section3.sect3-p{
+  letter-spacing: 0.02em;
 }
 .footer{
   background-color: #2E2F42;
