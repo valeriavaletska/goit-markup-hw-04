@@ -54,7 +54,10 @@ color:#2E2F42;
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
-.nav-menu.nav-page:hover:focus{
+.nav-menu.nav-page:hover{
+  color: #404BBF;
+}
+.nav-menu.nav-page:focus{
   color: #404BBF;
 }
 .header-address{
@@ -68,11 +71,17 @@ font-style: normal;
 .header-address.mail:hover:focus{
   color: #404BBF;
 }
+.header-address.mail:focus{
+  color: #404BBF;
+}
 .header-address.call{
   letter-spacing: 0.02em;
   color: #434455;
 }
 .header-address.call:hover:focus{
+  color: #404BBF;
+}
+.header-address.call:focus{
   color: #404BBF;
 }
 .hero-image{
