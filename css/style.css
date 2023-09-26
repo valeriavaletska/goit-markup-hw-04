@@ -88,7 +88,7 @@ font-style: normal;
   background-color: #2E2F42;
   color: #FFFFFF;
 }
-.hero-image.pagetitle{
+.hero-image .pagetitle{
   letter-spacing: 0.02em;
   text-align: center;
 }
