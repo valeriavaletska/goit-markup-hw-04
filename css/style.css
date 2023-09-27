@@ -18,6 +18,9 @@ font-weight: 700;
 font-size: 36px;
 letter-spacing: 0.02em;
 color:#2E2F42;
+line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 h3{
 font-weight: 500;
@@ -64,35 +67,35 @@ color:#2E2F42;
 color: #404BBF;
 font-style: normal;
 }
-.header-address.mail{
+.mail{
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-address.mail:hover{
+.mail:hover{
   color: #404BBF;
 }
-.header-address.mail:focus{
+.mail:focus{
   color: #404BBF;
 }
-.header-address.call{
+.call{
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-address.call:hover{
+.call:hover{
   color: #404BBF;
 }
-.header-address.call:focus{
+.call:focus{
   color: #404BBF;
 }
 .hero-image{
   background-color: #2E2F42;
   color: #FFFFFF;
 }
-.hero-image.pagetitle{
+.pagetitle{
   letter-spacing: 0.02em;
   text-align: center;
 }
-.hero-image.order{
+.order{
   cursor: pointer;
   background-color: #4D5AE5;
   color: #FFFFFF;
@@ -100,38 +103,38 @@ font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.hero-image.order:hover{
+.order:hover{
   background-color: #404BBF;
 }
-.hero-image.order:focus{
+.order:focus{
   background-color: #404BBF;
 }
-.section1 .hiddentitle{
+.hiddentitle{
   letter-spacing: 0.02em;
 }
-.section1.fewwords{
+.fewwords{
   letter-spacing: 0.02em;
 }
 .section2{
   background-color: #F4F4FD;
 }
-.section2.team{
+.team{
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.section2.pers{
+.pers{
   background-color: #FFFFFF;
 }
-.section2.teamh3{
+.teamh3{
   letter-spacing: 0.02em;
 }
-.section2.psect3{
+.psect3{
   font-size: 16px;
   letter-spacing: 0.02em;
 }
-.section3 .sect3-title{
+.sect3-title{
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -139,10 +142,10 @@ font-style: normal;
   text-transform: capitalize;
   color: #2E2F42;
 }
-.section3.sect3-h3{
+.sect3-h3{
   letter-spacing: 0.02em;
 }
-.section3.sect3-p{
+.sect3-p{
   letter-spacing: 0.02em;
 }
 .footer{
