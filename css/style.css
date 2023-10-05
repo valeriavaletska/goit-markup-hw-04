@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 body{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -29,6 +36,37 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color:#2E2F42;
 }
+h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ ul{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+ }
+.container{
+  width: 1440px;
+ }
+.headerall{
+  display:flex;
+width: 1440px;
+height: 72px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border: 1px #E7E9FC;
+  }
+.huglogo{
+display: inline-flex;
+height: 24px;
+align-items: center;
+flex-shrink: 0;
+margin-top: 24px;
+margin-bottom: 24px;
+margin-left: 156px;
+ }
 .logo{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -51,6 +89,15 @@ color:#2E2F42;
 .nav-menu{
   cursor: pointer;
   color: #2E2F42;
+  list-style-type: none;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 24px;
+margin-bottom: 24px;
+margin-left: 76px;
+margin-right: 32px;
+
 }
 .nav-menu .nav-page{
   font-weight: 500;
@@ -67,6 +114,16 @@ color:#2E2F42;
 color: #404BBF;
 font-style: normal;
 }
+.ul{
+  display: inline-flex;
+margin-top: 24px;
+margin-bottom: 24px;
+align-items:flex-start;
+gap: 40px;
+margin-right: 156px;
+margin-left: 332px;
+}
+
 .mail{
   letter-spacing: 0.02em;
   color: #434455;
