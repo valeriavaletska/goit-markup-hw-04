@@ -32,12 +32,12 @@ a{
 }
 .headerclas{
   border-bottom: 1px solid #e7e9fc;
- }
+}
 .container{
   width: 1158px;
   margin: 0 auto ;
   padding: 0 15px;
- }
+}
 .headerall{
   display:flex;
 width: 1158px;
@@ -47,7 +47,7 @@ padding: 0 15px;
 justify-content: center;
 align-items: center;
 border-bottom: 1px solid #e7e9fc;
-  }
+}
 .header{
   display:flex;
   align-items: center;
@@ -82,6 +82,7 @@ border-bottom: 1px solid #e7e9fc;
   gap: 40px;
   margin-top: 24px;
 margin-bottom: 24px;
+padding-r: 332px;
 }
 .nav-menu .nav-page{
   font-weight: 500;
