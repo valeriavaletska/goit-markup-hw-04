@@ -52,27 +52,26 @@ border-bottom: 1px solid #e7e9fc;
   display:flex;
   align-items: center;
   margin-top: 24px;
-margin-bottom: 24px;
- }
+  margin-bottom: 24px;
+}
 
 .logo{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-   font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    cursor: pointer;
-    display: block;
-height: 24px;
-align-items: center;
-flex-shrink: 0;
-margin-right: 76px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 76px;
 }
 .logo .logostudio{
-
-    color: #2e2f42 ;
+  color: #2e2f42 ;
 }
 .nav-menu{
   cursor: pointer;
