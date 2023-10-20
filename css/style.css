@@ -187,7 +187,8 @@ margin-right: 0;
 }
 .section-team{
   background-color: #F4F4FD;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team{
   line-height: 1.11;
@@ -207,6 +208,10 @@ margin-right: 0;
 }
 .pers-inf{
   padding: 32px 0;
+}
+.section-portf{
+  padding-top: 120px;
+  padding-bottom: 120px; 
 }
 .portf-title{
   font-size: 36px;
