@@ -187,6 +187,7 @@ margin-right: 0;
 }
 .section-team{
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
 .team{
   line-height: 1.11;
@@ -221,7 +222,6 @@ margin-right: 0;
   flex-wrap: wrap;
   column-gap: 24px; 
   row-gap: 48px; 
-
 }
 .app{
   width: calc((100% - 48px) / 3);
