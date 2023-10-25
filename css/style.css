@@ -161,8 +161,9 @@ letter-spacing: 1.12px;
   text-align: center; 
 }
 .app-title{
-  letter-spacing: 0.02em;
   margin-bottom: 8px;
+  letter-spacing: 0.02em;
+  
 }
 .section{
   padding: 120px 0 ;
