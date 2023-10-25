@@ -143,6 +143,14 @@ letter-spacing: 1.12px;
 .ordering:focus{
   background-color: #404BBF;
 }
+.about-title{
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.about-fewwords{
+  letter-spacing: 0.02em;
+  text-align: center; 
+}
 .hiddentitle{
   letter-spacing: 0.02em;
   margin-bottom: 8px;
@@ -151,6 +159,10 @@ letter-spacing: 1.12px;
 .fewwords{
   letter-spacing: 0.02em;
   text-align: center; 
+}
+.app-title{
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .section{
   padding: 120px 0 ;
