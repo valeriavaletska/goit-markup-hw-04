@@ -143,7 +143,7 @@ letter-spacing: 1.12px;
 .ordering:focus{
   background-color: #404BBF;
 }
-.about-title{
+.abouttitle{
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
@@ -160,7 +160,7 @@ letter-spacing: 1.12px;
   letter-spacing: 0.02em;
   text-align: center; 
 }
-.app-title{
+.apptitle{
   margin-bottom: 8px;
   letter-spacing: 0.02em;
   
