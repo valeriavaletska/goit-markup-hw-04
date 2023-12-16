@@ -174,15 +174,19 @@ letter-spacing: 1.12px;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 112px;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 .icon{
   width: 264px;
   height: 112px;
-  border-radius: 4px;
+  
   border: 1px solid #8E8F99;
   background-color: #F4F4FD;
   fill: #2e2f42;
-  margin-bottom: 8px;
+  
   padding: 24px 100px;
 }
 .abouttitle{
