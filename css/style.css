@@ -123,7 +123,7 @@ gap: 40px;
 }
 
 .section-hero-image{
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -267,11 +267,77 @@ text-transform: capitalize;
   justify-content: center;
   gap: 24px; 
 }
-.insta{
-  width: 40px;
-  height: 40px;
+.inst-pg{
+  width: 200%;
+  height: 200%;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius:50%;
   align-items: center;
   justify-content: center;
+}
+.inst-pg :hover{
+  background-color: #404bbf;
+}
+.inst-pg :focus{
+  background-color: #404bbf;
+}
+.insta{
+  fill:#f4f4fd;
+}
+.twit-pg{
+  width: 200%;
+  height: 200%;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius:50%;
+  align-items: center;
+  justify-content: center;
+}
+.twit-pg :hover{
+  background-color: #404bbf;
+}
+.twit-pg :focus{
+  background-color: #404bbf;
+}
+.twiter{
+  fill:#f4f4fd;
+}
+.fbk-pg{
+  width: 200%;
+  height: 200%;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius:50%;
+  align-items: center;
+  justify-content: center;
+}
+.fbk-pg :hover{
+  background-color: #404bbf;
+}
+.fbk-pg :focus{
+  background-color: #404bbf;
+}
+.facebook{
+  fill:#f4f4fd;
+}
+.linkdn-pg{
+  width: 200%;
+  height: 200%;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius:50%;
+  align-items: center;
+  justify-content: center;
+}
+.linkdn-pg :hover{
+  background-color: #404bbf;
+}
+.linkdn-pg :focus{
+  background-color: #404bbf;
+}
+.linkedin{
+  fill:#f4f4fd;
 }
 .section-portf{
   padding-top: 120px;
@@ -294,6 +360,10 @@ text-transform: capitalize;
 }
 .app{
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.app:hover{
+  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .app-inf{
   padding: 32px 16px;
@@ -304,6 +374,10 @@ text-transform: capitalize;
   background-color: #2E2F42;
   padding: 100px 0;
 }
+.container-logo-foot{
+  margin-right: 120px;
+}
+
 .footer .logo{
   display: inline-block;
   margin-bottom: 16px;
@@ -317,4 +391,17 @@ text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+.foot-all{
+  display: flex;
+  align-items: baseline;
+
+}
+.foot-sm{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5 ;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
 }
