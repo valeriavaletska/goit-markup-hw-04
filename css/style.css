@@ -123,7 +123,7 @@ gap: 40px;
 }
 
 .section-hero-image{
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.jpg);
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -186,9 +186,9 @@ letter-spacing: 1.12px;
   border: 1px solid #8E8F99;
   background-color: #F4F4FD;
   fill: #2e2f42;
-  
   padding: 24px 100px;
 }
+
 .abouttitle{
   letter-spacing: 0.02em;
   margin-bottom: 8px;
@@ -257,9 +257,21 @@ text-transform: capitalize;
   background-color: #FFFFFF;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .pers-inf{
   padding: 32px 0;
+}
+.social-med{
+  display: flex;
+  justify-content: center;
+  gap: 24px; 
+}
+.insta{
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
 }
 .section-portf{
   padding-top: 120px;
